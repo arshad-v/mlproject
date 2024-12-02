@@ -4,7 +4,7 @@
 This is a machine learning project that predicts student performance based on various demographic and academic factors. The project includes a complete ML pipeline from data preprocessing to model deployment with a Flask web interface.
 
 ## Application Interface
-![Student Performance Predictor Interface](images/app_interface.png)
+![Student Performance Predictor Interface](./images/app_interface.png)
 *Web interface for predicting student performance based on various factors*
 
 ## Features
