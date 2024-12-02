@@ -3,6 +3,10 @@
 ## Project Overview
 This is a machine learning project that predicts student performance based on various demographic and academic factors. The project includes a complete ML pipeline from data preprocessing to model deployment with a Flask web interface.
 
+## Application Interface
+![Student Performance Predictor Interface](images/app_interface.png)
+*Web interface for predicting student performance based on various factors*
+
 ## Features
 - Predicts student performance based on multiple input parameters
 - Web interface for easy interaction
@@ -22,6 +26,7 @@ This is a machine learning project that predicts student performance based on va
 ```
 ├── .ebextensions/          # Elastic Beanstalk configuration
 ├── artifacts/              # Model artifacts and data files
+├── images/                 # Screenshot images
 ├── logs/                   # Application logs
 ├── notebook/               # Jupyter notebooks for analysis
 ├── src/                    # Source code
@@ -58,8 +63,15 @@ This is a machine learning project that predicts student performance based on va
    python app.py
    ```
 2. Open your browser and navigate to `http://localhost:5000`
-3. Enter the required student information in the web form
-4. Get the predicted performance score
+3. Enter the required student information in the web form:
+   - Gender
+   - Race/Ethnicity
+   - Parental Level of Education
+   - Lunch Type
+   - Test Preparation Course
+   - Reading Score
+   - Writing Score
+4. Click "Predict" to get the performance score
 
 ## Development
 - The project follows a modular structure
